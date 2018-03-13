@@ -7,11 +7,10 @@ It can be applied to systems of the form
 
 .. math::
 
-   -\omega^2 \mathbf M(\omega) \mathbf x + i \omega \mathbf C(\omega) \mathbf x
-   + \mathbf K(\omega) \mathbf x = \mathbf f,
+   -\omega^2 M(\omega) x + i \omega C(\omega) x + K(\omega) x = f,
 
-where :math:`\mathbf M, \mathbf C, \mathbf K` are *frequency dependent* mass,
-damping and stiffness matrices.
+where :math:`M, C, K` are *frequency dependent* mass, damping and stiffness
+matrices.
 
 FSRK ROM is implemented as a class in the file ``fsrk.py``. The current
 implementation was made for systems with non-viscous damping. Therefore, it
